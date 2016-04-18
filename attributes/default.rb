@@ -13,7 +13,7 @@ default[:spark][:url]                       = "#{node[:download_url]}/spark-#{no
 
 default[:spark][:executor_memory]           = "512m"
 default[:spark][:driver_memory]             = "1g"
-default[:spark][:eventlog_enabled]          = "false"
+default[:spark][:eventlog_enabled]          = "true"
 default[:spark][:driver][:maxResultSize]    = "1g"
 
 default[:spark][:master][:port]             = 7077
